@@ -1,0 +1,17 @@
+{
+  "name": "phathocker-profiles",
+  "version": "0.1.0",
+  "author": "phathocker",
+  "summary": "Profiles configuration for fedora-config",
+  "license": "Apache 2.0",
+  "source": "https://github.com/phathocker/puppet-profiles",
+  "project_page": "https://github.com/phathocker/puppet-profiles",
+  "issues_url": "https://github.com/phathocker/puppet-profiles/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
