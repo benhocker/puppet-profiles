@@ -8,7 +8,7 @@ class profiles::dnsmasq {
   $tld = 'dev'
 
   dnsmasq::conf { 'dev-domain':
-    ensure => 'present',
+    ensure  => 'present',
     content => template('profiles/dnsmasq.conf.erb'),
   }
 }
