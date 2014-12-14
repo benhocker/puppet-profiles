@@ -6,7 +6,6 @@ else
   puppetversion = ['>= 2.7']
 end
 
-gem "puppet",                 "3.6.1"
 gem "puppet-lint",            "0.3.2"
 gem "puppetlabs_spec_helper", "0.4.1"
 gem "rake",                   "10.3.2"
