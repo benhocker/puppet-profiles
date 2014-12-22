@@ -36,6 +36,6 @@
 # Copyright 2014 Your name here, unless otherwise noted.
 #
 class profiles {
-  include profiles::dnsmasq
+  # include profiles::dnsmasq # https://github.com/saz/puppet-dnsmasq/issues/10
   include profiles::java
 }
