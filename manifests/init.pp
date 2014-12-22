@@ -37,4 +37,5 @@
 #
 class profiles {
   include profiles::dnsmasq
+  include profiles::java
 }
